@@ -1,0 +1,88 @@
+*{margin: 0px; padding: 0px;}
+ol, ul{list-style: none;}
+a{text-decoration: none; color:#ffffff;}
+body{font-size: 15px;background-color: #edf4fa; overflow-x: hidden; min-width: 1500px;}
+html{overflow-x: hidden;}
+
+#header{background-color: skyblue;}
+#header_inner{margin: 0px auto; width: 1320px; padding: 20px; height: 50px;}
+#nav .logo{float: left;}
+#nav ul{float: right;}
+#nav ul li{float: left; padding: 10px 100px; font-size: 24px; font-family: "제주고딕";}
+#nav ul li a:hover {color: royalblue;}
+
+#mb{background: url(images/main_banner.png)no-repeat;background-position: center;}
+#mb #mb_inner{margin: 0px auto;  height: 596px; position: relative; width: 1320px;}
+#mb_inner #polar_cafe_text{margin: 0px auto; position: absolute; left: 390px; top: 110px; color: #747474;}
+#mb_inner #polar_cafe_text h1{font-size: 60px; padding-bottom: 15px; text-align: center;}
+#mb_inner #polar_cafe_text h3{font-size: 22px;}
+#banner{background-image: url(images/whale_ice_background2.png); background-repeat: no-repeat; height: 3868px; background-position: center top;}
+#banner_inner{width: 1320px; margin: 0px auto; position: relative;}
+
+#iceburg{position: absolute; right: -151px;}
+@keyframes ice1{
+    0%{top: 520px; right: -280px;}
+    50%{top: 515px; right: -275px;}
+    100%{top: 520px; right: -280px;}}
+@keyframes ice2{
+    0%{top: 950px; left: -150px}
+    50%{top: 945px; left: -148px}
+    100%{top: 950px; left: -150px}}
+@keyframes ice3{
+    0%{top: 930px; right: -181px;}
+    50%{top: 935px; right: -185px;}
+    100%{top: 930px; right: -181px;}}
+@keyframes ice4{
+    0%{top: 1620px;}
+    50%{top: 1623px}
+    100%{top: 1620px;}}
+#ice1{position: absolute; right: -280px; top: 520px; animation: ice1 2s linear infinite}
+#ice2{position: absolute; left: -150px; top: 950px; animation: ice2 2s linear infinite}
+#ice3{position: absolute; right: -181px; top: 930px; animation: ice3 2s linear infinite}
+#ice4{position: absolute; right: -100px; top: 1620px;animation: ice4 2s linear infinite}
+
+#box1{padding-left: 155px;}
+#box1 div{float: left; text-align: left; line-height: 45px;}
+#box1 #images{background-color: #ffffff; height: 600px; width: 460px; text-align: center; padding-top: 20px;}
+#box1 #images h1{font-size: 45px; padding-top: 25px;}
+#box1 #images h1 .blue{color: cornflowerblue;}
+#box1 #text p{padding-left: 50px; padding-top: 240px; font-size: 25px; color: #ffffff; height: 510px;}
+
+#box2{padding-right: 155px;}
+#box2 div{float: right; text-align: right; line-height: 45px;}
+#box2 #images{background-color: #ffffff; height: 600px; width: 460px; text-align: center; padding-top: 20px;}
+#box2 #images h1{font-size: 45px; padding-top: 25px;}
+#box2 #images h1 .brown{color: chocolate;}
+#box2 #text p{padding-right: 50px; padding-top: 240px; font-size: 25px; color: #ffffff; height: 510px;}
+
+#box3{padding-left: 155px;}
+#box3 div{float: left; text-align: left; line-height: 45px;}
+#box3 #images{background-color: #ffffff; height: 600px; width: 460px; text-align: center; padding-top: 20px;}
+#box3 #images h1{font-size: 45px; padding-top: 25px;}
+#box3 #images h1 .green{color: rgb(15, 156, 79);}
+#box3 #text p{padding-left: 50px; padding-top: 240px; font-size: 25px; color: #ffffff; height: 510px;}
+
+#box4{padding-right: 155px;}
+#box4 div{float: right; text-align: right; line-height: 45px;}
+#box4 #images{background-color: #ffffff; height: 600px; width: 460px; text-align: center; padding-top: 20px;}
+#box4 #images h1{font-size: 45px; padding-top: 25px;}
+#box4 #images h1 .grey{color: rgb(131, 131, 131);}
+#box4 #text p{padding-right: 50px; padding-top: 240px; font-size: 25px; color: #ffffff; height: 510px;}
+
+#box5{padding-left: 155px;}
+#box5 div{float: left; text-align: left; line-height: 45px;}
+#box5 #images{background-color: #ffffff; height: 600px; width: 460px; text-align: center; padding-top: 20px;}
+#box5 #images h1{font-size: 45px; padding-top: 25px;}
+#box5 #images h1 .green{color: rgb(15, 156, 79);}
+#box5 #text p{padding-left: 50px; padding-top: 240px; font-size: 25px; color: #ffffff; height: 510px;}
+
+#footer{background-color: darkgray;}
+#footer_inner{margin: 0px auto; width: 1320px; height: 160px;}
+#footer_inner #menual #menual_inner li{float: left; padding: 10px 25px; border-bottom: 2px solid #777;}
+#footer_inner #menual_inner{float: left; padding-top: 5px; padding-left: 65px;}
+#footer_inner #menual_inner li a{font-size: 18px;}
+#footer_inner #menual_inner2{float: right; padding-top: 10px; padding-right: 180px;}
+#footer_inner #menual_inner2 li{font-size: 19px; color: #ffffff;}
+#footer_inner p{clear: both; font-size: 16px; padding-left: 65px;}
+
+#button{background-image: url(images/top_button.png); background-repeat: no-repeat; font-size: 28px; color: #ffffff; position: fixed; right: 210px; bottom: 200px; width: 65px; height: 65px; text-align: center; line-height: 60px;}
